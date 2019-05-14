@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>Prva Stran</title>
+  	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="./css/loading.css" type="text/css" media="all" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8.2.6/dist/sweetalert2.all.min.js"></script>
+  	<script src="JavaScript/jquery-3.3.1.min.js"></script>
+    <script type="application/javascript" src="javaScript/js.js"></script>
+</head>
+<script>
+function navodila(){
+
+  Swal.fire({
+  title: '<strong>Navodila igre</strong>',
+  type: 'info',
+  html:
+    '<b>Cilj igre je zlomiti vse palice, ki</b> ' +
+    '<b>jih imate na voljo. Premikate se s tipkama za v levo</b> ' +
+    '<b>in desno. Za pavzo pritisnite črko p.</b>'+
+    '<h2>1 TOČKA =<img src="./slike/rsz_log.png" style="margin: -25px 25px" hspace="20"><h2>'+
+    '<h2>2 TOČKI =<img src="./slike/rsz_bog.png" style="margin: -25px 30px" hspace="25"><h2>',
+  confirmButtonText:
+    '<i class="fa fa-thumbs-up"></i> OK',
+  backdrop: `
+    rgba(51,102,204,0.2)
+    center left
+    no-repeat
+  `
+})
+}
+function info(){
+
+  Swal.fire({
+    type: 'info',
+   title: 'Forrest Bricks',
+   text: 'Jaka Podlogar 4. Ra',
+   footer: 'Marec 2019',
+   backdrop: `
+     rgba(51,102,204,0.2)
+     center left
+     no-repeat
+   `
+})
+}
+</script>
+<body>
+
+  <div class ="nas">
+  <h1 style = "color: darkturquoise;">Dobrodošli v The Forrest Bricks</h1>
+ </div>
+
+ <div class="new">
+ <a href="html/index2.html" class="fade">Tutorial</a>
+ </div>
+
+ <div class="lvl">
+<a href="html/IzbiraLevela.html">Nivoji</a>
+ </div>
+
+ <div class="inf" onclick="info()">
+Informacije
+ </div>
+
+ <div class="nav" onclick="navodila()">
+Navodila
+ </div>
+
+</body>
+</html>

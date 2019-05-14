@@ -1,0 +1,106 @@
+.glavni{
+  width: 600px;
+  height: 670px;
+
+  margin: auto;
+  position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+
+
+}
+
+body{
+
+  background: url("../slike/green.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+  font-family: Courier;
+}
+
+
+h1{
+  text-align: center;
+  font-family: Courier;
+  font-size: 50px;
+  letter-spacing: 2px;
+
+
+}
+
+p{
+  text-align: center;
+  font-family: Courier;
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color:white;
+}
+
+a{
+  color: azure;
+  text-decoration: none;
+}
+
+#canvas{
+	text-align: center;
+	margin: -25 auto;
+	display: block;
+	/*!margin-top: 5px;*/
+	border-radius: 7px;
+	border: 2px solid black;
+  font-family: Courier;
+	box-shadow: 2px 2px 4px 4px;
+  cursor:none;
+
+}
+
+.noga{
+
+  display: flex;
+  justify-content: space-around;
+  margin: 15 auto;
+
+}
+
+mark {
+  background-color: green;
+  color: white;
+  background: transparent;
+}
+
+.swal2-popup .swal2-title{
+
+color: black !important;
+
+}
+
+.swal2-popup{
+
+font-family: Courier New !important;
+
+}
+
+.naz{
+
+  width: 200px;
+  height: 50px;
+  margin: 25px auto 40px auto;
+  font-size: 40px;
+  text-shadow: -1px 2px 2px #000;
+  text-align: center;
+  color: azure;
+  border: 2px solid black;
+  background-color: darkturquoise;
+  border-radius: 50px;
+  transition: border-width 0.1s linear;
+
+}
+
+.naz:hover{
+
+    border-width: 4px;
+
+}

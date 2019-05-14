@@ -1,0 +1,79 @@
+<html>
+<head>
+  <title>IzbiraLevela</title>
+  	<meta charset="UTF-8">
+  	<link rel="stylesheet" href="../css/izbira.css" type="text/css" media="all" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8.2.6/dist/sweetalert2.all.min.js"></script>
+  	<script src="js/jquery-3.3.1.min.js"></script>
+    <script type="application/javascript" src="js.js"></script>
+</head>
+<script>
+
+var el = document.getElementsByClass('lvl4')[0];
+el.disabled = true;
+
+function soon(){
+
+  Swal.fire({
+  title: '<strong>Prihaja kmalu</strong>',
+  type: 'info',
+
+})
+
+
+}
+
+</script>
+<body>
+
+  <div class ="nas">
+  <span style = "color: darkturquoise;">Izbira nivoja</span>
+ </div>
+
+<div class="glava">
+
+ <div class="lvl">
+ <a href="Level1.html">1</a>
+ </div>
+
+ <div class="lvl">
+<a href="Level2.html">2</a>
+ </div>
+
+ <div class="lvl">
+<a href="Level3.html">3</a>
+ </div>
+
+ <div class="lvlx" onclick="soon()">
+<a>4</a>
+ </div>
+
+
+</div>
+
+<div class="glava2">
+
+ <div class="lvlx"  onclick="soon()">
+ <a>5</a>
+ </div>
+
+ <div class="lvlx"  onclick="soon()">
+<a>6</a>
+ </div>
+
+ <div class="lvlx"  onclick="soon()">
+<a>7</a>
+ </div>
+
+ <div class="lvlx" onclick="soon()">
+<a>8</a>
+ </div>
+
+
+</div>
+ <div class="naz">
+<a href="../index.html">Nazaj</a>
+ </div>
+
+</body>
+</html>
